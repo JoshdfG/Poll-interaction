@@ -6,7 +6,7 @@ async function main() {
   await votingPollFactory.waitForDeployment();
 
   console.log(
-    `voting-Poll-Factory Factory contract deployed to ${votingPollFactory.target}`
+    `Poll-Factory Factory contract deployed to ${votingPollFactory.target}`
   );
 }
 

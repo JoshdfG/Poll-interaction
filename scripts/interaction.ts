@@ -16,9 +16,9 @@ async function main() {
   );
   await createWalletTx.wait();
 
-  const clones = await VotingFactory.getDeployedPolls();
+  const pollClones = await VotingFactory.getDeployedPolls();
 
-  console.log(clones);
+  console.log(pollClones);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

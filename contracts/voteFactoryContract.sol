@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "./votingContract.sol";
 import "./interface/IVotingFactory.sol";
 
-contract PollFactory {
+contract VotingPollFactory {
     address[] public checkDeployedPolls;
 
     event PollDeployed(address indexed pollAddress, address indexed owner);
